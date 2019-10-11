@@ -23,19 +23,19 @@ sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D7, echo_pin=board.D10)
     #time.sleep(0.1)
     #strip[i] = (0, 0, 0)
    # strip.show()
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot(0) = (10, 0, 0)
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1) # establishes the neopixel on the metro as a "dot"
+dot(0) = (10, 0, 0) # for r, g, and b, is each an interval, here r is 10 
 
 while True:
     try:
         distnace = sonar.distance
-        print(distance)
-        if sonar.distance < 20:
+        print(distance) # printing the sonar distnace
+        if sonar.distance < 20: # when the distance is less than 20, red is on
             r = map_range(distance, 5,20,255,0)
             b = map_range(distance, 5,20,0,255)
             dot.fill((10,0,0))
             print("red")
-        else:
+        else: # if the distance is greater than 20, blue "fades" into green
             b = map(val,20,35,255,0)
             g = map(val,20,35,0,255)
             #dot.fill((int(r), int(b), int(g)))
@@ -45,6 +45,6 @@ while True:
     #dot.fill((int(r), int(b), int(g)))
 
     except:
-        print("out of range")
+        print("out of range") # none of these distances, print out of range
 
     #time.sleep(0.05)

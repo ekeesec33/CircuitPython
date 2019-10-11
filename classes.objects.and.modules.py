@@ -1,7 +1,12 @@
+# the purpose of this assignment was to teach us how to use "subsitution" in code. 
+# basically it's as if you say "2x = 10" and you know that 5 = x, then you are able to subsitute 5 in for x in your original equation.
+# in this code, RGB is the "x"
+
 from rgb import RGB   # import the RGB class from the rgb module
 import board
 import time
 
+#below sets up pins for each of the LEDs
 r1 = board.D2
 g1 = board.D3
 b1 = board.D4
@@ -33,3 +38,5 @@ time.sleep(1)
 myRGB1.rainbow() # Fade through the colors of the rainbow at the given rate.  Oooooh, pretty!
 #myRGB2.rainbow() # Fade through the colors of the rainbow at the given rate.  Oooooh, pretty!
 #time.sleep(1)
+
+# in the above code, I used the different LED colors to mix and match in order to make new ones. 

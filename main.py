@@ -1,28 +1,19 @@
-import board
-from digitalio import DigitalInOut, Direction, Pull
-import time
+import board #pylint:disable-msg=import-error
+import digitalio #pylint:disable-msg=import-error
+from fancyLED import FancyLED
 
-button = DigitalInOut (board.D7)
-button.direction = Direction.INPUT
-button.pull = Pull.UP
-now = True
-later = True
-lastTime = 0
-counter = 0
+K1 = board.D1
+J1 = board.D5
+L1 = board.D12
+K2 = board.D9
+J2 = board.D7
+L2 = board.D4
+
+fancy1 = FancyLED (K1,J1,L1)
+fancy2 = FancyLED (K2,J2,L2)
+
 while True:
-    nowT = time.monotonic()
-    now = button.value
-    if now == False and later == True:
-        #if interrupted:
-        if nowT - 4 >= lastTime:
-            counter += 1
-            print("interrupted")
-            print(str(counter))
-            time.sleep(.05)
-            lastTime = time.monotonic
-
-    if now == False and later == True:
-        print("off")
-        time.sleep(0.05)
-        now = True
-        time.monotonic
+    fancy1.alternate()
+    fancy2.blink()
+    fancy1.chase()
+    fancy2.sparkle()
