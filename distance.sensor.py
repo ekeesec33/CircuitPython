@@ -50,4 +50,4 @@ while True:
     except: # if the range is more than allowed, prints "out of range"
         print("out of range")
 
-    #time.sleep(0.05)
+    #time.sleep(0.05)s
