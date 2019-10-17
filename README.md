@@ -19,3 +19,7 @@ For part B - Add a switch so that when you change the direction of the switch, t
 ## Circuit Python Photointerrupter
 The purpose of this assignment was to have a photointerrupter that when it was interrupted, would have the serial monitor print how many times it has been interrupted, and to have it check how many seconds have passed since it was last interrupted. The goal was for the program to check for the time every four seconds. This code can be found above under the name photointerrupter. In this assignment In this assignment I learned how to logically approach a challenge, and how to smartly name your variables so that you don't confuse yourself. I also learned how to use multiple variables and base them off of each other. 
 <img src = "Media/Photointerrupter%20assignment.png" width = "200" > 
+
+## Circuit Python Distance Sensor
+The purpose of this assignment was to have the neopixel on the Metro fade from red to blue to green depending on how far or close something is from the distance sensor. This code can be found above under the name distance.sensor. There is code called webstie.distance.sensor above too, but I found this one online and didnt actually get the chance to test it, so I'm not 100% sure if it works or not. In this assignment I learned that you can have the serial monitor print "out of range" so that it doesn't throw any errors at you. Simply comment out this line if you'd like to see errors. 
+<img src = "Media/Distance_Sensor.png" width = "200" >
