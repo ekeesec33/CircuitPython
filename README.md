@@ -15,3 +15,7 @@ This assignment had a couple of parts.
 For part A - Turn on the LCD screen and have a button. On the LCD screen have the number of times you have pressed the button and the way the counter is counting 
 For part B - Add a switch so that when you change the direction of the switch, the counting switches from up to down or from down to up. The code for this assignment is broken into two parts above. Part A is LCD.with.button and Part B is named LCD.button.and.switch. In this assignment I learned how to set up a "boolean" using Circuit Python, and how to apply it to the code in orde to have the code execute what I wanted it to. 
 <img src = "Media/LCDWiring.png" width = "200">
+
+## Circuit Python Photointerrupter
+The purpose of this assignment was to have a photointerrupter that when it was interrupted, would have the serial monitor print how many times it has been interrupted, and to have it check how many seconds have passed since it was last interrupted. The goal was for the program to check for the time every four seconds. This code can be found above under the name photointerrupter. In this assignment In this assignment I learned how to logically approach a challenge, and how to smartly name your variables so that you don't confuse yourself. I also learned how to use multiple variables and base them off of each other. 
+<img src = "Media/Photointerrupter%20assignment.png" width = "200" > 
