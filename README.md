@@ -9,3 +9,7 @@ The purpose of this assignment was to get the neopixel on the metro using the ne
 ## Circuit Python Servo
 The purpose of this assignment was to have the servo move one way when you touched on of the wires to a particular angle, and move the other way when you would touch the other wire depending on a certain angle. In this assignment I learned how to use a duty cycle and frequency. In short, a duty cycle determines how long a pulse stays high. Frequency is how often that pulse occurs. The code for this assignment can be found above, and is called servo.touch.control
 <img src = "Media/Servo_bb.png" width = "200">
+
+## Circuit Python LCD
+This assignment had a couple of parts. 
+For part A - Turn on the LCD screen and have a button. On the LCD screen have the number of times you have pressed the button and the way the cou
