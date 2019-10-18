@@ -46,3 +46,6 @@ The purpose of this assignment was to teach us how to code the classes, objects,
 
 
 <img src = "Media/FancyLED_bb.png" width = "300" >
+
+
+###### _Credit to Graham L, Jude F, Owen M, and Lukas H for fritzing diagrams._
