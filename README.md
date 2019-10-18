@@ -23,3 +23,8 @@ The purpose of this assignment was to have a photointerrupter that when it was i
 ## Circuit Python Distance Sensor
 The purpose of this assignment was to have the neopixel on the Metro fade from red to blue to green depending on how far or close something is from the distance sensor. This code can be found above under the name distance.sensor. There is code called webstie.distance.sensor above too, but I found this one online and didnt actually get the chance to test it, so I'm not 100% sure if it works or not. In this assignment I learned that you can have the serial monitor print "out of range" so that it doesn't throw any errors at you. Simply comment out this line if you'd like to see errors. 
 <img src = "Media/Distance_Sensor.png" width = "200" >
+
+## Classes, Object, and Modules
+The purpose of this assingment was to teach us hwo to make our lives easier with the help of modules. A module is a seperate file that you can call at different lines of code. To see a more detailed explination, see the comments in the code for this assingment (found above) classes.objects.and.modules.
+In this assignment I learned how to make a module, and call it from my main code. The fritzing for this assingment and the following one (Fancy LED) are the same. However in this assignment I used tricolor LEDs, and mixed and match the primary colors to get some ofthe other colors. 
+<img src = "Media/FancyLED_bb.png" width = "200" >
