@@ -26,5 +26,9 @@ The purpose of this assignment was to have the neopixel on the Metro fade from r
 
 ## Classes, Object, and Modules
 The purpose of this assingment was to teach us hwo to make our lives easier with the help of modules. A module is a seperate file that you can call at different lines of code. To see a more detailed explination, see the comments in the code for this assingment (found above) classes.objects.and.modules.
-In this assignment I learned how to make a module, and call it from my main code. The fritzing for this assingment and the following one (Fancy LED) are the same. However in this assignment I used tricolor LEDs, and mixed and match the primary colors to get some ofthe other colors. 
+In this assignment I learned how to make a module, and call it from my main code. The fritzing for this assingment and the following one (Fancy LED) are the same. However in this assignment I used tricolor LEDs, and mixed and match the primary colors to get some of the other colors. 
+<img src = "Media/FancyLED_bb.png" width = "200" >
+
+## Fancy LED
+The purpose of this assignment was to teach us how to code the classes, objects, and modules assignment in VS code and then upload it to github. The code for this assigment can be found above under the name twofancy, while its module can be found under the name fancyLED. In this assignment I learned how to code for an assignment in VS code and then upload it to github. 
 <img src = "Media/FancyLED_bb.png" width = "200" >
