@@ -2,7 +2,7 @@
 My CircutPython assignments-
 
 ## LED Fade
-The purpose of this assignment was to get the neopixel on the metro using the new software of Circuit Python. (You can also use this code for just making a regualr LED fade, which is what the diagram is showing below) The code for this assignment is called led.fade, and can be found above. In this assignment I learned that not everything is as easy as it looks. I also learned how to use a while True loop. 
+The purpose of this assignment was to get the neopixel on the metro using the new software of Circuit Python. (You can also use this code for just making a regualr LED fade, which is what the diagram is showing below) The code for this assignment is called led.fade, and can be found above. In this assignment I learned how to use a while True loop, and some of the most basic commands in Circuit Python code. 
 
 
 <img src="Media/LED_Fade_Fritzing_bb.png" width="350">
